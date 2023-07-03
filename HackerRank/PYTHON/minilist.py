@@ -5,7 +5,6 @@ def stringUserMenu():
     print("4 . Kata terbalik")
 
 
-
 def programList():
     isRunning = True
 
@@ -24,27 +23,44 @@ def programList():
                     print("Game pecah kata ")
                     userStringInput = (input('Masukkan kata : '))
                     print("Akan dimasukkan ke variabel baru bertipe list")
-                    listUserVar = []
-                    listUserVar.append(userStringInput)
-                    print(listUserVar)
+                    userKataList = []
+                    userKataList.append(userStringInput)
+                    print(userKataList)
                     print("String sudah menjadi list dan akan dipecah " , "\n" ,[x for x in userStringInput])
 
                 elif s == 2 :
-                    listUserVar = []
+                    userKataList = []
                     print("Game gabungkan kata ")
                     n = int(input("Masukkan jumlah kata  : "))
 
-                    for x in range(n):                
+                    for n in range(n):                
                         userStringInput  =(input("Masukkan kata : "))
-                        listUserVar.append(userStringInput)
-                    print(listUserVar)
+                        userKataList.append(userStringInput)  
+                    print(userKataList)
 
-                elif s== 3 :
+                elif s == 3 :
+                    userKataList = []
                     print("Game pop kata ")
+                    n = int(input("Masukkan jumlah kata : "))
+
+                    for n in range(n):
+                        userStringInput = str(input("Masukkan kata : "))
+                        userKataList.append(userStringInput)
+                    print(userKataList)
+
+                    inp = int(input("Jumlah penghilangan kata : "))                    
+                   
+                    for popInput in range(inp):
+                        popInput  = input("Masukkan kata yang ingin dihilangkan : ")
+                        userKataList.remove(popInput)
+                    print(userKataList)
 
 
                 elif s ==4 :
+                    userKataList = []
                     print("Game kebalikan kata")
+                    
+
 
 
                 else:
