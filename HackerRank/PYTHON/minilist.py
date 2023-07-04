@@ -3,19 +3,16 @@ def stringUserMenu():
     print("2 . Gabungkan kata ")
     print("3 . Pop Kata ")
     print("4 . Kata terbalik")
+    print("5 . Kembali")
 
-
-def programList():
-    isRunning = True
-
-    while(isRunning):
+while(True):
         print("1 . GAME KATA ")
         print("2 . KELUAR")
         userChoiceInput = (int(input("Pilihan anda : ")))
 
         if userChoiceInput == 1 :
 
-            while(isRunning):
+            while(True):
                 stringUserMenu()
                 s = int (input("Pilih  : "))
 
@@ -55,25 +52,29 @@ def programList():
                         userKataList.remove(popInput)
                     print(userKataList)
 
-
                 elif s ==4 :
                     userKataList = []
                     print("Game kebalikan kata")
+                    n  = int(input("Berapa jumlah angka : "))
+
+                    for n in range(n):
+                           userStringInput = str(input("Masukkan kata : "))
+                           userKataList.append(userStringInput)
+                    print(userKataList)
+                    userKataList.reverse()
+                    print("\n" , end= " ")
+                    print(userKataList)           
+
+                elif  s == 5:
+                    print("Ke menu utama")
+                    break
                     
-
-
-
                 else:
-                    print("Pilih input yang tersedia (1 - 5 )!!!")
-                    
+                 print("Pilih input yang tersedia (1 - 5 )!!!")
 
         elif userChoiceInput == 2 :
             print("Keluar ")
             break
         
         elif  userChoiceInput  > 2 :
-            print("Input yang benar ")
-
-
-
-programList()        
+            print("Input yang benar!!! (1-2)")
