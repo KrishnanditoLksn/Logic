@@ -46,7 +46,7 @@ while(True):
                     print(userKataList)
 
                     inp = int(input("Jumlah penghilangan kata : "))                    
-                   
+
                     for popInput in range(inp):
                         popInput  = input("Masukkan kata yang ingin dihilangkan : ")
                         userKataList.remove(popInput)
@@ -58,8 +58,8 @@ while(True):
                     n  = int(input("Berapa jumlah angka : "))
 
                     for n in range(n):
-                           userStringInput = str(input("Masukkan kata : "))
-                           userKataList.append(userStringInput)
+                        userStringInput = str(input("Masukkan kata : "))
+                        userKataList.append(userStringInput)
                     print(userKataList)
                     userKataList.reverse()
                     print("\n" , end= " ")
@@ -70,7 +70,7 @@ while(True):
                     break
                     
                 else:
-                 print("Pilih input yang tersedia (1 - 5 )!!!")
+                    print("Pilih input yang tersedia (1 - 5 )!!!")
 
         elif userChoiceInput == 2 :
             print("Keluar ")

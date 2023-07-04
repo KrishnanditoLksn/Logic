@@ -2,14 +2,21 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "basics",
+      "request": "launch",
+      "mainClass": "basics",
+      "projectName": "Logic_2ea6c11d"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/emmanuel/Pythonn/Logic/HackerRank/JAVA",
-      "program": "/home/emmanuel/Pythonn/Logic/HackerRank/JAVA/build/Debug/outDebug",
+      "cwd": "/home/emmanuel/Pythonn/Logic",
+      "program": "/home/emmanuel/Pythonn/Logic/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
