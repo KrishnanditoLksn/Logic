@@ -75,6 +75,7 @@ while(True):
                     print("WDAwasasadas")
         elif userChoiceInput == 2 :
             print("Keluar ")
+            print("program selesai ")
             break
         
         elif  userChoiceInput  > 2 :
