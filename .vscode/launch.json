@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ipelse",
+      "request": "launch",
+      "mainClass": "ipelse",
+      "projectName": "Logic_2ea6c11d"
+    },
+    {
+      "type": "java",
       "name": "basics",
       "request": "launch",
       "mainClass": "basics",

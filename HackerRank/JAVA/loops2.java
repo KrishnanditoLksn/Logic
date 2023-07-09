@@ -1,6 +1,3 @@
-package HackerRank;
-
-import javax.crypto.MacSpi;
 import java.util.Scanner;
 
 public class loops2 {
