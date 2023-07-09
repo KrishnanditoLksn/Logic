@@ -55,6 +55,7 @@ while(True):
                 elif s ==4 :
                     userKataList = []
                     print("Game kebalikan kata")
+                    print("aku merubah git hub")
                     n  = int(input("Berapa jumlah angka : "))
 
                     for n in range(n):
@@ -71,7 +72,7 @@ while(True):
                     
                 else:
                     print("Pilih input yang tersedia (1 - 5 )!!!")
-
+                    print("WDAwasasadas")
         elif userChoiceInput == 2 :
             print("Keluar ")
             break
