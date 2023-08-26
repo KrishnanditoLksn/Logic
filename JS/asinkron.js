@@ -1,17 +1,21 @@
 console.log("welcome")
 
 setTimeout(()=>{
-    console.log("Arigatou!!!")
+    console.log("hufttt why it take too long!!")
 }, 3000)
 
-console.log("hufttt why it take too long!!")
+console.log("Arigatouu!!!")
 
 function getUsers(callback) {
-    setTimeout(()=>{
-        const users =  ['John', 'Jack', 'Abigail'];
-    },3000);
+    // simulate network delay
+    setTimeout(() => {
+        const users = ['John', 'Jack', 'Abigail'];
+        callback(users);
+    }, 3000);
 }
 
-getUsers((users)=>{
-    console.log(users)
-});
+function usersCallback(users) {
+    console.log(users);
+}
+
+getUsers(usersCallback)
