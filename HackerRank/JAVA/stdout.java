@@ -1,3 +1,5 @@
+package HackerRank.JAVA;
+
 import java.util.Scanner;
 
 public class stdout {
@@ -8,6 +10,4 @@ public class stdout {
             System.out.println(i);
         }
     }
-
-
 }

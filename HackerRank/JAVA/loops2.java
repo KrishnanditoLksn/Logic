@@ -1,3 +1,5 @@
+package HackerRank.JAVA;
+
 import java.util.Scanner;
 
 public class loops2 {
@@ -13,7 +15,7 @@ public class loops2 {
             for (int j = 0; j < c; j++) {
 
             /*for (int j = 0;  j  < c; j++){
-                p = Math.pow(2 , j);
+                p = LeetCoding.Math.pow(2 , j);
                 int p1 = (int)p;
                 a = a + (p1 * b);
                 System.out.println(a + " ");

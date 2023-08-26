@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "recursive",
+      "request": "launch",
+      "mainClass": "recursive",
+      "projectName": "Logic_2ea6c11d"
+    },
+    {
+      "type": "java",
+      "name": "TwoSum",
+      "request": "launch",
+      "mainClass": "Leetcode.TwoSum",
+      "projectName": "Logic_2ea6c11d"
+    },
+    {
+      "type": "java",
+      "name": "twoSum",
+      "request": "launch",
+      "mainClass": "Leetcode.twoSum",
+      "projectName": "Logic_2ea6c11d"
+    },
+    {
+      "type": "java",
       "name": "ipelse",
       "request": "launch",
       "mainClass": "ipelse",

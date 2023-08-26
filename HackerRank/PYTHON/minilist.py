@@ -77,6 +77,6 @@ while(True):
             print("Keluar ")
             print("program selesai ")
             break
-        
+
         elif  userChoiceInput  > 2 :
             print("Input yang benar!!! (1-2)")
