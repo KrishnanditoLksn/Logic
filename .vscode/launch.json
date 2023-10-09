@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "nestedTry",
+      "request": "launch",
+      "mainClass": "Erorr_Handling.nestedTry",
+      "projectName": "Logic_2ea6c11d"
+    },
+    {
+      "type": "java",
+      "name": "error2",
+      "request": "launch",
+      "mainClass": "Erorr_Handling.error2",
+      "projectName": "Logic_2ea6c11d"
+    },
+    {
+      "type": "java",
+      "name": "error1",
+      "request": "launch",
+      "mainClass": "Erorr_Handling.error1",
+      "projectName": "Logic_2ea6c11d"
+    },
+    {
+      "type": "java",
       "name": "course_regis",
       "request": "launch",
       "mainClass": "course_regis",

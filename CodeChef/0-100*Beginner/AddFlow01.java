@@ -1,20 +1,18 @@
 
-
 import java.util.Scanner;
 
-public class AddFlow01{
+public class AddFlow01 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        try (Scanner input = new Scanner(System.in)) {
+            int n = input.nextInt();
 
-        int n = input.nextInt();
-        
-        for (int i = 0; i < n ; i++) {
-            int a = input.nextInt();
-            int b = input.nextInt();
-        
-            int sum = a + b;
-            System.out.println(sum);
-        } 
+            for (int i = 0; i < n; i++) {
+                int a = input.nextInt();
+                int b = input.nextInt();
 
+                int sum = a + b;
+                System.out.println(sum);
+            }
+        }
     }
 }
