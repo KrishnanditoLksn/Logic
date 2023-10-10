@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "airlines",
+      "request": "launch",
+      "mainClass": "CodeChef.airlines",
+      "projectName": "Logic_2ea6c11d"
+    },
+    {
+      "type": "java",
       "name": "nestedTry",
       "request": "launch",
       "mainClass": "Erorr_Handling.nestedTry",
